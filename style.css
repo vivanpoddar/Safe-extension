@@ -1,0 +1,15 @@
+body {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+#settings {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.btn {
+    position: relative;
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Safe",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Popup if suicide looked up",
+    "background_page": "background.html",
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "main.html"
+    },
+    "permissions": ["tabs", "<all_urls>"],
+    "web_accessible_resources": [
+      "keywords.json"
+    ]
+  }
